@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-family: Arial;
+}
+
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.col-1 { grid-column: span 1; }
+.col-2 { grid-column: span 2; }
+.col-3 { grid-column: span 3; }
+.col-4 { grid-column: span 4; }
+.col-5 { grid-column: span 5; }
+.col-6 { grid-column: span 6; }
+.col-7 { grid-column: span 7; }
+.col-8 { grid-column: span 8; }
+.col-9 { grid-column: span 9; }
+.col-10 { grid-column: span 10; }
+.col-11 { grid-column: span 11; }
+.col-12 { grid-column: span 12; }
+
+
+
+.topo {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.topo h1 {
+    color: orange;
+}
+
+
+
+.menu {
+    background-color: #444444;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+
+
+.banner {
+    background-color: #333333;
+    text-align: center;
+    padding: 50px;
+}
+
+.banner h2 {
+    color: orange;
+}
+
+
+.conteudo {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.destaques {
+    padding: 20px;
+    text-align: center;
+}
+
+.destaques h2 {
+    color: orange;
+}
+
+
+.card {
+    background-color: #444444;
+    padding: 15px;
+    text-align: center;
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background-color: #333333;
+}
+
+.card h3 {
+    color: orange;
+}
+
+.card p {
+    margin: 10px;
+}
+
+
+.final {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.final h2 {
+    color: orange;
+}
+
+.final a {
+    color: orange;
+}
+
+
+
+.rodape {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
